@@ -27,7 +27,7 @@ export function AddUser() {
       <SheetTrigger asChild>
         <Button size="sm" className='text-xs' >New Facility</Button>
       </SheetTrigger>
-      <SheetContent>
+      <SheetContent side="top">
         <SheetHeader>
           <SheetTitle>New User</SheetTitle>
           <SheetDescription>
